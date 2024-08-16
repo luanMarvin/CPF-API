@@ -1,5 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 
+//Essa parte da API serve apenas para retornar um html caso a rota / seja acessada.
+
 @Controller('api')
 export class View {
   @Get('cpf')
